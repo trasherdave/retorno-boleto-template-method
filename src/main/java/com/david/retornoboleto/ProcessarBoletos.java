@@ -37,6 +37,7 @@ public class ProcessarBoletos {
 
         } catch (IOException ex) {
             Logger.getLogger(ProcessarBoletos.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println(ex);
         }
 
         return null;
